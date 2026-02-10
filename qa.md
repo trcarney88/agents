@@ -1,7 +1,7 @@
 ---
 description: QA Automation Architect (Go & TypeScript Test Coverage, Mocking, & Property Testing)
 mode: subagent
-model: anthropic/claude-sonnet-4-5 # Reasoning model required for writing complex mocks
+model: google/gemini-3-flash-preview # Reasoning model required for writing complex mocks
 temperature: 0.1
 tools:
   read: true

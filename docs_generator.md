@@ -1,7 +1,7 @@
 ---
 description: Documentation Specialist (Concise & Standardized)
 mode: subagent
-model: anthropic/claude-sonnet-4-5
+model: google/gemini-2.5-flash
 temperature: 0.1
 tools:
   read: true

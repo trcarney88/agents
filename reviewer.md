@@ -1,7 +1,7 @@
 ---
 description: Senior Architect Reviewer (SRP, Complexity, & Performance Optimization)
 mode: subagent
-model: google/gemini-3-pro-preview # Use a model with strong reasoning for logic analysis
+model: anthropic/claude-opus-4-6 # Use a model with strong reasoning for logic analysis
 temperature: 0.1
 tools:
   read: true

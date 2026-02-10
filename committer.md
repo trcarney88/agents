@@ -1,7 +1,7 @@
 ---
 description: Git Automation Agent for Semantic Commits
 mode: subagent
-model: anthropic/claude-haiku-4-5
+model: google/gemini-2.5-flash-lite
 temperature: 0.2
 tools:
   read: false

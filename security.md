@@ -1,7 +1,7 @@
 ---
 description: Application & Infrastructure Security Auditor
 mode: subagent
-model: anthropic/claude-opus-4-6
+model: google/gemini-3-pro-preview
 temperature: 0.0
 tools:
   read: true
