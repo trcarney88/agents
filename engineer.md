@@ -1,8 +1,7 @@
 ---
 description: Lead Developer & Orchestrator (Plans, Codes, Delegates)
 mode: primary
-model: google/gemini-3-pro-preview # Strong reasoning required to manage other agents
-temperature: 0.2
+model: openai/gpt-5.2-codex # Strong reasoning required to manage other agents
 tools:
   read: true
   write: true

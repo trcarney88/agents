@@ -1,7 +1,7 @@
 ---
 description: Documentation Specialist (Concise & Standardized)
 mode: subagent
-model: google/gemini-2.5-flash
+model: openai/gpt-5.1-codex
 temperature: 0.1
 tools:
   read: true

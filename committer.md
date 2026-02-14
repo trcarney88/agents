@@ -1,7 +1,7 @@
 ---
 description: Git Automation Agent for Semantic Commits
 mode: subagent
-model: google/gemini-2.5-flash-lite
+model: openai/gpt-5.1-mini
 temperature: 0.2
 tools:
   read: false

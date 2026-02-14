@@ -1,7 +1,7 @@
 ---
 description: Application & Infrastructure Security Auditor
 mode: subagent
-model: google/gemini-3-pro-preview
+model: openai/gpt-5.2-codex
 temperature: 0.0
 tools:
   read: true
