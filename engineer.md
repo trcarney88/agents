@@ -1,7 +1,7 @@
 ---
 description: Lead Developer & Orchestrator (Plans, Codes, Delegates)
 mode: primary
-model: openai/gpt-5.2-codex # Strong reasoning required to manage other agents
+model: openai/gpt-5.3-codex # Strong reasoning required to manage other agents
 tools:
   read: true
   write: true
