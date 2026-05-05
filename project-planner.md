@@ -8,6 +8,20 @@ tools:
   write: false
   edit: false
   bash: true
+permission:
+  bash:
+    "resend emails send*": deny
+    "resend *emails send*": deny
+    "resend emails batch*": deny
+    "resend *emails batch*": deny
+    "resend broadcasts send*": deny
+    "resend *broadcasts send*": deny
+    "resend broadcasts create*--send*": deny
+    "resend *broadcasts create*--send*": deny
+    "resend events send*": deny
+    "resend *events send*": deny
+    "curl *api.resend.com/emails*": deny
+    "curl *api.resend.com/broadcasts*send*": deny
 ---
 
 # Project Planner
@@ -63,14 +77,6 @@ Kanban cards in `Kanban.md` must link to corresponding `Tasks/<task-slug>.md` no
 1. Confirm project context:
    - Read `L-Space/Projects.md`.
    - Identify selected project or create a new one.
-   - If creating a new project, ask exactly:
-     - "Do you want to link an existing Linear issue/project, create a new Linear issue/project, or have no Linear link?"
-   - Supported outcomes for new projects:
-     - Link existing Linear entity (issue key, project name, or URL).
-     - Create a new Linear entity (issue or project) and link it.
-     - No Linear tie.
-   - Always record the outcome in both `README.md` and `Memory.md` under a `Linear` section with identifier, name, URL, and linked date.
-   - If no Linear tie is selected, record `Linear: none linked` in both `README.md` and `Memory.md`.
 2. Read active project context:
    - `README.md`, `Kanban.md`, `Memory.md`, and relevant `Tasks/*.md` notes.
 3. Produce a planning packet:

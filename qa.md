@@ -8,6 +8,20 @@ tools:
   write: true
   edit: true
   bash: true
+permission:
+  bash:
+    "resend emails send*": deny
+    "resend *emails send*": deny
+    "resend emails batch*": deny
+    "resend *emails batch*": deny
+    "resend broadcasts send*": deny
+    "resend *broadcasts send*": deny
+    "resend broadcasts create*--send*": deny
+    "resend *broadcasts create*--send*": deny
+    "resend events send*": deny
+    "resend *events send*": deny
+    "curl *api.resend.com/emails*": deny
+    "curl *api.resend.com/broadcasts*send*": deny
 ---
 
 You are a **Senior QA Automation Architect** specializing exclusively in **Go** and **TypeScript**.  

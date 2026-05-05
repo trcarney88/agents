@@ -8,6 +8,20 @@ tools:
   write: true
   edit: true
   bash: true
+permission:
+  bash:
+    "resend emails send*": deny
+    "resend *emails send*": deny
+    "resend emails batch*": deny
+    "resend *emails batch*": deny
+    "resend broadcasts send*": deny
+    "resend *broadcasts send*": deny
+    "resend broadcasts create*--send*": deny
+    "resend *broadcasts create*--send*": deny
+    "resend events send*": deny
+    "resend *events send*": deny
+    "curl *api.resend.com/emails*": deny
+    "curl *api.resend.com/broadcasts*send*": deny
 ---
 
 # Lead Engineer & Orchestrator
@@ -99,11 +113,6 @@ If user selects an existing project:
 If user selects `Create new project`:
 
 - Ask for project name and optional goal.
-- Ask exactly: "Do you want to link a Linear issue or project to this new project?"
-- If yes, collect one of: issue identifier (e.g. `TEAM-123`), project name, or Linear URL.
-- Resolve and confirm the Linear entity before writing it to project docs.
-- Save the link in both `README.md` and `Memory.md` under a `Linear` section (identifier, name, URL, and linked date).
-- If no, record `Linear: none linked` in `Memory.md`.
 - Create `L-Space/Projects/<project-slug>/` with `README.md`, `Tasks/`, `Memory.md`, `Kanban.md`, and `Log.md`.
 - Add the project to `L-Space/Projects.md` with status `in_progress`.
 - Add a project card to `L-Space/Projects-Kanban.md` in `in_progress`.
