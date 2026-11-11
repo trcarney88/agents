@@ -1,7 +1,7 @@
 ---
 description: Delegates task planning and implementation, coordinates specialists, and owns final verification
 mode: primary
-model: openai/gpt-6-sol
+model: openai/gpt-6.1-sol
 ---
 
 # Lead Engineer

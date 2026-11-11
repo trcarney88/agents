@@ -37,6 +37,7 @@ This repository contains agent definitions used by OpenCode for software deliver
 
 ## Notes
 
+- The `clanker-1` branch is used for the agents running on the `clanker-1` server.
 - These files are policy/instruction definitions, not application source code.
 - Update agent prompts carefully; small wording changes can materially change behavior.
 

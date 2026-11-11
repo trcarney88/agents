@@ -1,7 +1,7 @@
 ---
 description: User-led coding helper that answers explicit requests using repository context
 mode: primary
-model: openai/gpt-6-sol
+model: openai/gpt-6.1-sol
 permissions:
   - action: "*"
     resource: "*"

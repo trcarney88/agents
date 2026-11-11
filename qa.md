@@ -1,7 +1,7 @@
 ---
 description: Repository-native regression testing and evidence-based verification
 mode: subagent
-model: openai/gpt-6-sol
+model: openai/gpt-6.1-sol
 permissions:
   - action: subagent
     resource: "*"

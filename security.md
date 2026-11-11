@@ -1,7 +1,7 @@
 ---
 description: Read-only application and infrastructure security audit with evidence-based findings
 mode: subagent
-model: openai/gpt-6-sol
+model: openai/gpt-6.1-sol
 permissions:
   - action: edit
     resource: "*"

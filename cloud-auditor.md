@@ -1,7 +1,7 @@
 ---
 description: Cloud Cost Auditor for cloud audit datasets; use after raw cost, tagging, budget, anomaly, commitment, organization, and resource data has been collected.
 mode: primary
-model: openai/gpt-6-sol
+model: openai/gpt-6.1-sol
 permissions:
   - action: edit
     resource: "*"
