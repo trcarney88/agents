@@ -7,7 +7,7 @@ This repository contains agent definitions used by OpenCode for software deliver
 | File | Type | Purpose |
 | --- | --- | --- |
 | `engineer.md` | Primary | Lead developer and orchestrator agent |
-| `project-planner.md` | Primary | Planning-only agent for project scoping and Obsidian sync |
+| `project-planner.md` | Primary | Planning-only agent for project scoping and implementation handoffs |
 | `committer.md` | Subagent | Git automation for safe semantic commits |
 | `qa.md` | Subagent | Go/TypeScript QA strategy and test execution |
 | `reviewer.md` | Subagent | SRP, complexity, readability, and performance review |

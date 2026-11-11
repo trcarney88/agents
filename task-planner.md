@@ -29,7 +29,7 @@ Create an implementation-ready plan for the individual task delegated by Enginee
 
 - Do not modify production code, tests, configuration, documentation, tracking artifacts, or other files.
 - Use shell commands only for read-only discovery and never to bypass the edit restriction.
-- Do not launch other agents, update Obsidian or Linear, or perform project-level task decomposition and tracking.
+- Do not launch other agents or perform project-level task decomposition and tracking.
 - If the request is not yet a well-defined implementation task, return the missing task definition or project-planning dependency to Engineer.
 
 ## Handoff to Engineer

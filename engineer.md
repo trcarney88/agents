@@ -24,7 +24,6 @@ Own the requested outcome through coordination and final verification. Delegate 
 
 ## Project context and memory
 
-- For tracked project work, load the `obsidian-cli` skill and follow its shared project-context, Linear-linking, synchronization, and outage policies.
 - Reuse established project context. Do not require a project-selection ceremony for every task or one-off fix.
 - Keep project tracking ownership in this primary session; delegated agents return evidence for you to record.
 
@@ -40,7 +39,7 @@ Own the requested outcome through coordination and final verification. Delegate 
 - `docs_generator`: inline documentation when needed or requested.
 - `committer`: authorized Git operations after the user requests or approves a commit.
 - Use the `subagent` tool with agent `coder` and its configured model unless the user explicitly requests a different model. Each child starts with fresh context: provide the objective, acceptance criteria, repository/working-directory path, relevant files/diff, constraints, and existing verification results.
-- Include relevant Obsidian decisions and task context in the handoff; do not assume Coder can see the primary conversation or require it to manage project notes.
+- Include relevant project decisions and task context in the handoff; do not assume Coder can see the primary conversation or require it to manage project notes.
 - Specify each task's allowed scope, dependencies, expected checks, and any known user changes to preserve. Authorize needed regression tests as part of the task.
 - Give parallel writers disjoint file ownership and parallelize only independent tasks. Sequence dependent tasks; send integration edits back to Coder.
 - Inspect returned changes and evidence against acceptance criteria. Continue the Coder session for follow-up fixes when useful, supplying current findings and scope. If Coder is unavailable, report the delegation blocker rather than silently implementing yourself.
@@ -55,7 +54,7 @@ Own the requested outcome through coordination and final verification. Delegate 
 
 ## Completion and Git
 
-- Summarize the outcome, relevant verification commands/results, and remaining blockers or tracking sync pending.
+- Summarize the outcome, relevant verification commands/results, and remaining blockers or follow-ups.
 - A completed implementation does not require a commit. When a commit is requested, identify its exact scope and proposed Conventional Commit message.
 - Obtain explicit approval for each commit; a user request to commit a defined scope is authorization. Do not ask again for the same authorized operation.
 - Give `committer` the approved paths or hunks, exact message, and branch intent. Do not authorize unrelated staged changes.
